@@ -80,7 +80,7 @@ function Header() {
                 </Tippy>
                 <div className={cx('action')}>
                     <Button text>Upload</Button>
-                    <Button rounded className={cx('custom-login')}>
+                    <Button primary className={cx('custom-login')}>
                         Log in
                     </Button>
                     <Menu items={MENU_ITEMS}>
