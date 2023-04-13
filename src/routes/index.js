@@ -4,6 +4,7 @@ import Home from '~/pages/Home';
 import Following from '~/pages/Following';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
+import Profile from '~/components/Layout/Profile';
 // Public routes
 const publicRoutes = [
    {
@@ -13,6 +14,10 @@ const publicRoutes = [
    {
       path: '/following',
       component: Following,
+   },
+   {
+      path: '/@:nickname',
+      component: Profile,
    },
    {
       path: '/upload',
